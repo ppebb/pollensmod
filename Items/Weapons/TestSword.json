@@ -1,0 +1,25 @@
+{
+  "displayName": "Test Sword",
+  "size": [ 26, 26 ],
+  "maxStack": 1,
+  "value": [ 4, 2, 6, 0 ],
+  "rare": 9,
+  "tooltip": "yeems",
+  "useStyle": 1,
+  "useAnimation": 20,
+  "useTime": 20,
+  "damage": 275,
+  "knockback": 7,
+  "useSound": 1,
+  "autoReuse": true,
+  "useTurn": true,
+  "melee": true,
+
+  "recipes": [
+    {
+      "items": { "Gel": 1, "Wood":  1 },
+      "tiles": [ "Work Bench" ],
+      "creates": 1
+    }
+  ]
+}

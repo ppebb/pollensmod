@@ -1,0 +1,6 @@
+﻿{
+  "displayName": "pollen__'s Mod", //This is what the mod is named in the mod selection menu in tAPI.
+  "author": "pollen__", //This is where your name goes.
+  "info": "Kinda cringe", //This is a description for your mod. Don't put too much effort into it, chances are nobody's going to read it.
+  "internalName": "PollensMod" //This is the internal name of your mod (This will come in handy when programming items with C#) Don't put special characters and spaces here, keep it simple
+}

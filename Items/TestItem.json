@@ -1,0 +1,16 @@
+{
+  "displayName": "Test Item",
+  "size": [ 26, 26 ],
+  "maxStack": 999,
+  "value": [ 0, 0, 200, 0 ],
+  "rare": 4,
+  "tooltip": "'Kinda Cringe Bro'",
+
+  "recipes": [
+    {
+      "items": { "Gel": 1 },
+      "tiles": [ "Work Bench" ],
+      "creates": 1
+    }
+  ]
+}
