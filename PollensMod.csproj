@@ -97,6 +97,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".gitignore" />
     <None Include="Items\Weapons\TestSword.json" />
     <None Include="ModInfo.json" />
     <None Include="Items\TestItem.json" />
