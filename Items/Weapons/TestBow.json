@@ -7,7 +7,7 @@
   "tooltip": "This is a test to see if this Bow works",
   "useStyle": 5,
   "useAnimation": 8,
-  "useTime": 8,
+  "useTime": 20,
   "damage": 35,
   "knockback": 8,
   "autoReuse": true,
