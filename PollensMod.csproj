@@ -72,6 +72,18 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\tAPI\Microsoft.Xna.Framework.Xact.dll</HintPath>
     </Reference>
+    <Reference Include="PoroCYon.Extensions">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\tAPI\PoroCYon.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="PoroCYon.Extensions.IL">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\tAPI\PoroCYon.Extensions.IL.dll</HintPath>
+    </Reference>
+    <Reference Include="PoroCYon.Extensions.Xna">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\tAPI\PoroCYon.Extensions.Xna.dll</HintPath>
+    </Reference>
+    <Reference Include="PoroCYon.MCT">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\tAPI\PoroCYon.MCT.dll</HintPath>
+    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
@@ -80,6 +92,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="API\Biomes\SpreadingTile.cs" />
     <Compile Include="PollensMod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
