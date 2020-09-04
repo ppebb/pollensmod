@@ -72,6 +72,18 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\tAPI\Microsoft.Xna.Framework.Xact.dll</HintPath>
     </Reference>
+    <Reference Include="MMHOOK_tAPI">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\tAPI\MMHOOK_tAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="MMHOOK_Terraria 1.2.4.1">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\tAPI\MMHOOK_Terraria 1.2.4.1.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.RuntimeDetour">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\tAPI\MonoMod.RuntimeDetour.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.Utils">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\tAPI\MonoMod.Utils.dll</HintPath>
+    </Reference>
     <Reference Include="PoroCYon.Extensions">
       <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\tAPI\PoroCYon.Extensions.dll</HintPath>
     </Reference>
@@ -98,9 +110,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
+    <None Include="Items\Weapons\TestBow.json" />
+    <None Include="Items\Weapons\TestGun.json" />
     <None Include="Items\Weapons\TestSword.json" />
     <None Include="ModInfo.json" />
     <None Include="Items\TestItem.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Items\TestItem.png" />
+    <Content Include="Items\Weapons\TestBow.png" />
+    <Content Include="Items\Weapons\TestGun.png" />
+    <Content Include="Items\Weapons\TestSword.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
