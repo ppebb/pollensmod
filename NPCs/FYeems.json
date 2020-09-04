@@ -1,0 +1,27 @@
+{
+    "displayName": "Ascended yeems",
+    "size": [26,22],
+    "value": [0,0,0,50], 
+    "npcSlots": 1,
+    "aiStyle": 14, 
+    "animationType": 252,
+    "lifeMax": 35,
+    "damage": 20,
+    "defense": 3,
+    "soundHit": 1,
+    "soundKilled": 1, 
+    "knockbackResist": 0.5, 
+    "noGravity": true,
+
+
+    "drops":
+    [
+        {
+            "item": "Items:TestItem",
+            "chance": 0.2, 
+            "stack": 1 
+        },
+        {
+        }
+    ]
+}

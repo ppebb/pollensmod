@@ -1,21 +1,21 @@
 {
   "displayName": "The Test Bow",
-  "size": [30, 30],
+  "size": [200, 180],
   "maxStack": 1,
   "value": [1, 0, 0, 0],
   "rare": 8,
   "tooltip": "This is a test to see if this Bow works",
   "useStyle": 5,
   "useAnimation": 8,
-  "useTime": 8,
+  "useTime": 20,
   "damage": 35,
   "knockback": 8,
   "autoReuse": true,
-  "noMelee": true,
-  "shoot": 1,
-  "shootSpeed": 15,
-  "useAmmo": 1,
-  "ranged": true,
+  "noMelee": true, 
+  "shoot": 1, 
+  "shootSpeed": 15, 
+  "useAmmo": 1, 
+  "ranged": true, 
 
   "recipes":
   [{
