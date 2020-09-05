@@ -2,5 +2,6 @@
   "displayName": "pollen__'s Mod",
   "author": "pollen__",
   "info": "Kinda cringe",
-  "internalName": "PollensMod"
+  "internalName": "PollensMod",
+  "dllReferences": [ "References/MMHOOK_tAPI.dll", "References/MMHOOK_Terraria 1.2.4.1.dll", "References/MonoMod.RuntimeDetour.dll", "References/MonoMod.Utils.dll", "References/PoroCYon.Extensions.dll", "References/PoroCYon.Extensions.IL.dll", "References/PoroCYon.Extensions.XNA.dll", "References/PoroCYon.MCT.dll" ]
 }

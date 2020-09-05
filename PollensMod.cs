@@ -1,9 +1,9 @@
-﻿using PoroCYon.MCT;
-using TAPI;
+﻿using TAPI;
+using PoroCYon.MCT;
 
 namespace PollensMod
 {
-    class PollensMod : ModBase
+    public class PollensMod : ModBase
     {
         public override void OnLoad()
         {

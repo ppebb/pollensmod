@@ -72,29 +72,37 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\tAPI\Microsoft.Xna.Framework.Xact.dll</HintPath>
     </Reference>
-    <Reference Include="MMHOOK_tAPI">
-      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\tAPI\MMHOOK_tAPI.dll</HintPath>
+    <Reference Include="MMHOOK_tAPI, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\MMHOOK_tAPI.dll</HintPath>
     </Reference>
-    <Reference Include="MMHOOK_Terraria 1.2.4.1">
-      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\tAPI\MMHOOK_Terraria 1.2.4.1.dll</HintPath>
+    <Reference Include="MMHOOK_Terraria 1.2.4.1, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\MMHOOK_Terraria 1.2.4.1.dll</HintPath>
     </Reference>
-    <Reference Include="MonoMod.RuntimeDetour">
-      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\tAPI\MonoMod.RuntimeDetour.dll</HintPath>
+    <Reference Include="MonoMod.RuntimeDetour, Version=20.8.3.5, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\MonoMod.RuntimeDetour.dll</HintPath>
     </Reference>
-    <Reference Include="MonoMod.Utils">
-      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\tAPI\MonoMod.Utils.dll</HintPath>
+    <Reference Include="MonoMod.Utils, Version=20.8.3.5, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\MonoMod.Utils.dll</HintPath>
     </Reference>
-    <Reference Include="PoroCYon.Extensions">
-      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\tAPI\PoroCYon.Extensions.dll</HintPath>
+    <Reference Include="PoroCYon.Extensions, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\PoroCYon.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="PoroCYon.Extensions.IL">
-      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\tAPI\PoroCYon.Extensions.IL.dll</HintPath>
+    <Reference Include="PoroCYon.Extensions.IL, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\PoroCYon.Extensions.IL.dll</HintPath>
     </Reference>
-    <Reference Include="PoroCYon.Extensions.Xna">
-      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\tAPI\PoroCYon.Extensions.Xna.dll</HintPath>
+    <Reference Include="PoroCYon.Extensions.Xna, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\PoroCYon.Extensions.Xna.dll</HintPath>
     </Reference>
-    <Reference Include="PoroCYon.MCT">
-      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\tAPI\PoroCYon.MCT.dll</HintPath>
+    <Reference Include="PoroCYon.MCT, Version=2.0.3.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\PoroCYon.MCT.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
@@ -104,8 +112,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="API\Biomes\SpreadingTile.cs" />
+    <Compile Include="NPCs\FYeems.cs" />
     <Compile Include="PollensMod.cs" />
+    <Compile Include="PollensModWorld.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -115,12 +124,22 @@
     <None Include="Items\Weapons\TestSword.json" />
     <None Include="ModInfo.json" />
     <None Include="Items\TestItem.json" />
+    <None Include="NPCs\FYeems.json" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Items\TestItem.png" />
     <Content Include="Items\Weapons\TestBow.png" />
     <Content Include="Items\Weapons\TestGun.png" />
     <Content Include="Items\Weapons\TestSword.png" />
+    <Content Include="NPCs\FYeems.png" />
+    <Content Include="References\MMHOOK_tAPI.dll" />
+    <Content Include="References\MMHOOK_Terraria 1.2.4.1.dll" />
+    <Content Include="References\MonoMod.RuntimeDetour.dll" />
+    <Content Include="References\MonoMod.Utils.dll" />
+    <Content Include="References\PoroCYon.Extensions.dll" />
+    <Content Include="References\PoroCYon.Extensions.IL.dll" />
+    <Content Include="References\PoroCYon.Extensions.Xna.dll" />
+    <Content Include="References\PoroCYon.MCT.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
