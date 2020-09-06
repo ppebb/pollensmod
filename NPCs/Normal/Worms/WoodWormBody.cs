@@ -11,8 +11,6 @@ namespace PollensMod.NPCs.Normal.Worms
     {
         public override void AI()
         {
-            //Code help on, massivley, by Yoraiz0r. Give thanks to him if you see this.
-
             int toFollowSlot = 1;
 
             bool shouldSuicide = false;
