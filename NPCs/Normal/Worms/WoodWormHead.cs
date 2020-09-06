@@ -6,15 +6,9 @@ using TAPI;
 
 namespace PollensMod.NPCs.Normal.Worms
 {
-    /// <summary>
-    /// The Dark Matter Spearworm's head.
-    /// </summary>
     public sealed class WoodWormHead : ModNPC
     {
         bool TailSpawned = false;
-        /// <summary>
-        /// 
-        /// </summary>
         public override void AI()
         {
             if (!TailSpawned)
@@ -23,7 +17,7 @@ namespace PollensMod.NPCs.Normal.Worms
                 for (int Counter = 0; Counter < 14; Counter++)
                 {
                     int spawn = 0;
-                    if (Counter < 10) //Leaves four segments for a tail, for the unique look.
+                    if (Counter < 10)
                     {
                         spawn = NPC.NewNPC((int)npc.position.X + (npc.width / 2), (int)npc.position.Y + (npc.height / 2), NPCDef.byName["PollensMod:WoodWormBody"].type, npc.whoAmI);
                     }
