@@ -1,0 +1,28 @@
+{
+	"code": "NPCs.Normal.Worms.WoodWormHead",
+
+	"size": [ 30, 48 ],
+	"scale": 1.0,
+	"npcSlots": 1,
+	"frameCount": 1,
+	"aiStyle": 6,
+	"displayName": "Wood Worm",
+
+	"friendly": false,
+	"townNPC": false,
+	"boss": false,
+
+	"lifeMax": 500,
+	"damage": 2,
+	"defense": 2,
+	"knockbackResist": 1.0,
+	"value": [ 0, 0, 10, 0 ],
+
+	"dontTakeDamage": false,
+	"lavaImmune": true,
+	"noGravity": true,
+	"noTileCollide": true,
+	"behindTiles": false,
+	"soundHit": 9,
+	"soundKilled": 5
+}
