@@ -1,0 +1,25 @@
+{
+  "displayName": "Sword Thing",
+  "size": [ 52, 45 ],
+  "maxStack": 1,
+  "value": [ 0, 0, 0, 0 ],
+  "rare": 6,
+  "tooltip": "electric boogaloo",
+  "useStyle": 1,
+  "useAnimation": 20,
+  "useTime": 20,
+  "damage": 666,
+  "knockback": 15,
+  "useSound": 1,
+  "autoReuse": true,
+  "useTurn": true,
+  "melee": true,
+
+  "recipes": [
+    {
+      "items": { "IronBar": 10, "Wood":  10 },
+      "tiles": [ "Work Bench" ],
+      "creates": 1
+    }
+  ]
+}
